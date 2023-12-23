@@ -7,6 +7,21 @@
     <title>Document</title>
 </head>
 <body>
+    <div id="container">
+        <div>
+            <form >
+                <label for="Title">Book Title:</label><br>
+                <input type="text" name="Title" id="book-title"><br>
+                <label for="Author">Author Name:</label><br>
+                <input type="text" name="Author" id="book-author"><br><br>
+                <input type="button" value="Add Book" class="full-btn" onclick="addBook();">
+            </form>
+        </div>
+        <div>
+            <ol id="library-list">
+            </ol>
+        </div>
+    </div>
     <script src="app.js"></script>
 </body>
 </html>
